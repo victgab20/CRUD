@@ -1,0 +1,35 @@
+aside.menu-area{
+    background-color: var(--bg-dark);
+    box-shadow: var(--shadow);
+}
+.menu a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+}
+
+.menu a:hover{
+    background: linear-gradient(135deg, #fc7d74 0%, #f84724 100%)
+}
+
+@media(max-width: 768px){
+    .menu a{
+        display: inline;
+        font-weight: 900;
+        font-size: 17px;
+
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    aside.menu-area{
+        display: flex;
+        justify-content: center;
+    }
+}
