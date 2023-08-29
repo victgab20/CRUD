@@ -13,7 +13,7 @@ const basedUrl = 'http://localhost:3001/user'// url dos dados
 
 // estado inicial com os campos vazios
 const initialState = {
-    user: {name: '', email: ''},
+    user: {email: '', name: ''},
     list: []
 }
 
